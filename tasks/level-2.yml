@@ -38,9 +38,8 @@
   when: "'4.1.8' not in cis_level_2_exclusions"
 - import_tasks: "level-2/4.1.9.yml"
   when: "'4.1.9' not in cis_level_2_exclusions"
-# not implemented  
-# - import_tasks: "level-2/4.1.10.yml"
-#   when: "'4.1.10' not in cis_level_2_exclusions"
+- import_tasks: "level-2/4.1.10.yml"
+  when: "'4.1.10' not in cis_level_2_exclusions"
 - import_tasks: "level-2/4.1.11.yml"
   when: "'4.1.11' not in cis_level_2_exclusions"
 - import_tasks: "level-2/4.1.13.yml"
